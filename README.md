@@ -19,14 +19,14 @@ Windows 사용자 기준으로 **WSL (Ubuntu 20.04 or 22.04)** 기반 환경에�
 
 ## 디렉토리 구조
 
-\`\`\`
+```
 SITL_setup/
 ├── install_px4.sh           # PX4 + 의존성 자동 설치 스크립트
 ├── run_sitl_gazebo.sh       # PX4 SITL + Gazebo 실행용
 ├── run_qgc.sh               # QGroundControl 실행기 (옵션)
 ├── docs/                    # 흐름도, 아키텍처 이미지 등
 └── README.md                # 현재 문서
-\`\`\`
+```
 
 ---
 
@@ -35,17 +35,17 @@ SITL_setup/
 ### 1. Ubuntu WSL 환경 준비
 Windows 터미널에서:
 
-\`\`\`bash
+```bash
 wsl --install -d Ubuntu-22.04
-\`\`\`
+```
 
 ### 2. PX4 및 환경 구성
 
-\`\`\`bash
+```bash
 cd ~/Drone_Hacking_Lab/SITL_setup
 chmod +x install_px4.sh
 ./install_px4.sh
-\`\`\`
+```
 
 > 설치에는 수십 분이 소요될 수 있습니다. 안정된 인터넷 환경을 권장합니다.
 
