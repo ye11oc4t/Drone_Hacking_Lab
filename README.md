@@ -54,14 +54,14 @@ chmod +x install_px4.sh
 ## 실행
 
 PX4 SITL + Gazebo 실행:
-\`\`\`bash
+```bash
 ./run_sitl_gazebo.sh
-\`\`\`
+```
 
 QGroundControl을 따로 실행하려면:
-\`\`\`bash
+```bash
 ./run_qgc.sh
-\`\`\`
+```
 
 > 기본적으로 MAVLink는 \`udp:14550\` 포트에서 수신 대기 중입니다.
 
